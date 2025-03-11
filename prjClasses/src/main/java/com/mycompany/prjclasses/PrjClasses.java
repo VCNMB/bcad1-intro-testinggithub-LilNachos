@@ -12,5 +12,10 @@ public class PrjClasses {
 
     public static void main(String[] args) {
         System.out.println("Hello World i just did my first gitHub activity.");
+        
+        newClass nc = new newClass();
+        
+        nc.helloClass();
+        System.out.println(nc.strSecondClassVar);
     }
 }
